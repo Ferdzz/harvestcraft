@@ -20,7 +20,8 @@ import net.minecraftforge.fml.common.network.NetworkRegistry;
 @Mod(modid = Reference.MODID,
         name = Reference.NAME,
         version = Reference.VERSION,
-        dependencies = "required-after:Forge@[12.16.1.1900,)")
+        dependencies = "required-after:Forge@[12.16.1.1900,)",
+        updateJSON = "https://raw.githubusercontent.com/MatrexsVigil/harvestcraft/master/update.json")
 public class HarvestCraft {
 
     @Instance(Reference.MODID)
